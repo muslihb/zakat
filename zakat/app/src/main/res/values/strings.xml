@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Zakat</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="beranda">Beranda</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="saya">Saya</string>
+    <string name="nl">Nama Lengkap</string>
+    <string name="nt">Nomor Telepon</string>
+    <string name="un">Nama Pengguna</string>
+    <string name="ks">Kata Sandi</string>
+    <string name="alamat">Alamat</string>
+    <string name="register">Daftar</string>
+    <string name="ha">Sudah Punya Akun</string>
+    <string name="si">Masuk</string>
+    <string name="nha">Belum Punya Akun</string>
+    <string name="fp">Lupa Kata Sandi?</string>
+    <string name="acs">Akses</string>
+    <string name="kss">Kata sandi saat ini</string>
+    <string name="ksn">Kata sandi baru</string>
+    <string name="ksc">Konfirmasi kata sandi baru</string>
+    <string-array name="profilefragment">
+        <item>Edit Profile</item>
+        <item>Ganti Password</item>
+    </string-array>
+    <string-array name="statusmuzakki">
+        <item>Semua</item>
+        <item>Pending</item>
+        <item>Berlangsung</item>
+        <item>Selesai</item>
+    </string-array>
+    <string-array name="statusAkun">
+        <item>Semua</item>
+        <item>Muzakki</item>
+        <item>Amil</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="AksesAkun">
+        <item>Muzakki</item>
+        <item>Amil</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="ternak">
+        <item>Sapi</item>
+        <item>Kambing</item>
+    </string-array>
+    <string-array name="pertanian">
+        <item>Padi</item>
+        <item>Gandum</item>
+        <item>Sagu</item>
+        <item>Singkong</item>
+        <item>Kismis</item>
+        <item>Kurma</item>
+    </string-array>
+    <string-array name="listinfotersedia">
+        <item>Emas</item>
+        <item>Perak</item>
+        <item>Sapi</item>
+        <item>Kambing</item>
+        <item>Padi</item>
+        <item>Gandum</item>
+        <item>Sagu</item>
+        <item>Singkong</item>
+        <item>Kismis</item>
+        <item>Kurma</item>
+    </string-array>
+    <string-array name="mutashik">
+        <item>Semua</item>
+        <item>Fakir</item>
+        <item>Miskin</item>
+        <item>Amil</item>
+        <item>Muallaf</item>
+        <item>Gharim</item>
+        <item>Budak</item>
+        <item>Fi Sabililah</item>
+        <item>Ibnu Sabil</item>
+    </string-array>
+    <string-array name="listmutashik">
+        <item>Fakir</item>
+        <item>Miskin</item>
+        <item>Amil</item>
+        <item>Muallaf</item>
+        <item>Gharim</item>
+        <item>Budak</item>
+        <item>Fi Sabililah</item>
+        <item>Ibnu Sabil</item>
+    </string-array>
+    <string-array name="perairan">
+        <item>Hujan</item>
+        <item>Pompa Air</item>
+        <item>Hujan dan Pompa Air</item>
+    </string-array>
+    <string-array name="perhiasan">
+        <item>Emas</item>
+        <item>Perak</item>
+    </string-array>
+    <string-array name="quest1">
+        <item>Iya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="quest2">
+        <item>Cukup</item>
+        <item>Tidak Mencukupi</item>
+    </string-array>
+    <string-array name="quest3">
+        <item>Mampu</item>
+        <item>Tidak Mampu</item>
+    </string-array>
+    <string-array name="quest4">
+        <item>Amil Zakat</item>
+        <item>Pendakwah</item>
+        <item>Budak</item>
+        <item>Lainnya</item>
+    </string-array>
+    <string-array name="quest5">
+        <item>Iya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="quest6">
+        <item>Iya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="quest6more">
+        <item>Terlilit hutang demi kemaslahatan atau kebutuhan dirinya</item>
+        <item>Terlilit hutang karena mendamaikan qabilah atau suku</item>
+        <item>Terlilit hutang karena hal lain</item>
+    </string-array>
+    <string-array name="quest7">
+        <item>Iya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="quest8">
+        <item>Hanya Sekedar Jalan jalan</item>
+        <item>Untuk Silaturahmi</item>
+        <item>Untuk Menuntut Ilmu</item>
+    </string-array>
+
+</resources>

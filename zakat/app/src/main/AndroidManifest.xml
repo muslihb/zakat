@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zakat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_nurulihsan"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_nurulihsan"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Zakat"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".muzakki.PenilaianActivity" />
+        <activity
+            android:name=".admin.cfreview.hipotesa.HipotesaActivity"
+            android:parentActivityName=".admin.cfreview.CfruleActivity" />
+        <activity
+            android:name=".admin.cfreview.evidence.EvidenceActivity"
+            android:parentActivityName=".admin.cfreview.CfruleActivity" />
+        <activity
+            android:name=".admin.cfreview.CfruleActivity"
+            android:parentActivityName=".admin.HomeAdmin" />
+        <activity
+            android:name=".admin.reviewamil.cfAmilActivity"
+            android:parentActivityName=".admin.HomeAdmin" />
+        <activity
+            android:name=".admin.rulezakat.masuk.InfoPengambilanAdminActivity"
+            android:parentActivityName=".admin.rulezakat.masuk.ZakatMasukAdminActivity" />
+        <activity
+            android:name=".admin.rulezakat.masuk.ZakatMasukAdminActivity"
+            android:parentActivityName=".admin.rulezakat.ruleZakatActivity" />
+        <activity
+            android:name=".admin.rulezakat.ruleZakatActivity"
+            android:parentActivityName=".admin.HomeAdmin" />
+        <activity
+            android:name=".amil.request.InfoPengambilanActivity"
+            android:parentActivityName=".amil.request.AmilPengambilanActivity" />
+        <activity
+            android:name=".muzakki.History.InfoZakatActivity"
+            android:parentActivityName=".muzakki.HistoryMuzakkiActivity" />
+        <activity
+            android:name=".amil.penyaluran.ZakatPenyaluranActivity"
+            android:parentActivityName=".amil.HomeAmil" />
+        <activity
+            android:name=".amil.terkumpul.ZakatTerkumpulAmilActivity"
+            android:parentActivityName=".amil.HomeAmil" />
+        <activity
+            android:name=".amil.request.AmilPengambilanActivity"
+            android:parentActivityName=".amil.HomeAmil" />
+        <activity
+            android:name=".muzakki.RequestActivity"
+            android:parentActivityName=".muzakki.MainActivity" />
+        <activity
+            android:name=".admin.rule.konklusi.ListKonklusiActivity"
+            android:parentActivityName=".admin.rule.RulesZakatActivity" />
+        <activity
+            android:name=".admin.rule.premis.ListPremisActivity"
+            android:parentActivityName=".admin.rule.RulesZakatActivity" />
+        <activity
+            android:name=".admin.rule.RulesZakatActivity"
+            android:parentActivityName=".admin.HomeAdmin" />
+        <activity
+            android:name=".muzakki.zakat"
+            android:parentActivityName=".muzakki.MainActivity" />
+        <activity
+            android:name=".muzakki.FC"
+            android:parentActivityName=".muzakki.MainActivity" />
+        <activity
+            android:name=".admin.dataakun.ListAkunAdminActivity"
+            android:parentActivityName=".admin.HomeAdmin" />
+        <activity android:name=".amil.HomeAmil" />
+        <activity android:name=".admin.HomeAdmin" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".muzakki.Profile.GantiPasswordActivity"
+            android:parentActivityName=".muzakki.AkunMuzakkiActivity" />
+        <activity
+            android:name=".muzakki.Profile.ProfileMuzakkiActivity"
+            android:parentActivityName=".muzakki.AkunMuzakkiActivity" />
+        <activity android:name=".muzakki.HistoryMuzakkiActivity"
+            android:parentActivityName=".muzakki.MainActivity"/>
+        <activity android:name=".muzakki.AkunMuzakkiActivity"
+            android:parentActivityName=".muzakki.MainActivity"/>
+        <activity android:name=".muzakki.MainActivity"/>
+        <activity android:name=".SplashScreen">
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
